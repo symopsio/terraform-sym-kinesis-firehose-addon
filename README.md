@@ -1,3 +1,6 @@
+# Deprecation Warning
+The `symopsio/kinesis-firehose-addon/sym` module is deprecated as of September 30, 2022. Please migrate to [`symopsio/kinesis-firehose-addon/aws`](https://registry.terraform.io/modules/symopsio/kinesis-firehose-addon/aws/latest). This should be done automatically if you are have migrated to the `symopsio/runtime-connector/aws` module.
+
 # kinesis-firehose-addon
 
 The `kinesis-firehose-addon` module adds AWS Kinesis Firehose access to a Sym runtime connector module.
